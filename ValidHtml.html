@@ -1,0 +1,74 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>What makes Html valid?</title>
+    <link rel="stylesheet" href="Simple.css" />
+</head>
+
+<body>
+    <h1>What makes HTML valid?</h1>
+
+<article class="rules">
+    <h3 id="rulesheader">Basic rules are:</h3>
+        <ol>
+            <li>To tell the browser that the HTML document is an HTML 5, start the document with the following line:<br />
+            <b style="color: rgb(4, 80, 194)">&lt;!DOCTYPE Html&gt;</b></li>
+            <li>Apart from the doctype line, all your HTML document must be wrapped inside the element:<br/>
+            &lt;html&gt;</li>
+            <li>The element carries additional information for the whole webpage is: <br/>
+            &lt;head&gt;</li>
+            <li id="headtag">Other HTML elements can appear in the &lt;head&gt;, and only in the &lt;head&gt;: <br />
+            &lt;link&gt; <br />
+            &lt;meta&gt; <br />
+            &lt;style&gt; </li>
+            <li> The element where we write all our content is: <br />
+            &lt;body&gt; <br />
+            Everything inside the &lt;body&gt; will be displayed in the browser window.</li>
+            <!--Use span tag to style a piece of text-->
+            <li>The W3C provides a <a href="https://validator.w3.org/#validate_by_input" ><span style="color: rgb(4, 80, 194)">Markup Validation Service</span></a> to check any HTML document for errors and warnings.</li>
+        </ol>
+</article>
+
+<article class="elements">
+    <h3>
+        The basic elements in HTML page are:
+    </h3>
+        <ol>
+            <li>A text header, denoted using the &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; tags.</li>
+            <li>A paragraph, denoted using the &lt;p&gt; tag.</li>
+            <li>A horizontal ruler, denoted using the &lt;hr&gt; tag.</li>
+            <li>A link, denoted using the &lt;a&gt; (anchor) tag.</li>
+            <li>A list, denoted using the &lt;ul&gt; (unordered list), &lt;ol&gt; (ordered list) and &lt;li&gt; (list element) tags.</li>
+            <li>An image, denoted using the &lt;img&gt; tag</li>
+            <li>A divider, denoted using the &lt;div&gt; tag</li>
+           <li>A text span, denoted using the &lt;span&gt; tag</li>
+        </ol>
+</article>
+
+<article>
+    <h3>Sources</h3>
+        <ul>
+        <!--Use target="blank" in anchor tag to open page in a new tab-->
+        <li><a href="https://marksheet.io/html-valid-document.html" target="_blank">Marksheet.io</a></li>
+        <li><a href="https://www.learn-html.org/en/Basic_Elements" target="_blank">Learn-html.org</a></li>
+
+        </ul>
+</article>
+
+<footer>
+    <p>Mai Nguyen, 2019<br />
+        <br />
+        <a href="http://validator.w3.org/check?uri=referer">
+            <img style="border:none;height:31px;width:31px;text-decoration:none;"
+                src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
+                alt="Valid HTML"  /></a>
+
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:none;width:88px;height:31px;text-decoration:none;"
+                 src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
+                 alt="Valid CSS" /></a>
+    </p>
+</footer>
+</body>
+</html>

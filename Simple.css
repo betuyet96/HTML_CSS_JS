@@ -1,0 +1,38 @@
+body {
+    color: rgb(0, 0, 0);
+    padding: 2em;
+}
+
+h1 {
+    color: rgb(4, 80, 194);
+    text-align: center;
+  }
+
+h3 {
+    color: rgb(4, 80, 194)
+}
+
+#rulesheader {
+    color:rgb(4, 80, 194)
+}
+
+.rules {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 20px;
+    border-style: dotted;
+    border-color: rgb(63, 136, 204)
+}
+
+#headtag {
+    background-color: rgb(200, 226, 255)
+}
+
+.elements{
+    margin-bottom: 40px;
+}
+  
+footer {
+    margin-top: 70px;
+}
+

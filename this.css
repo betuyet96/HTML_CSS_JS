@@ -1,0 +1,29 @@
+body {
+    color: rgb(0, 0, 0);
+    padding: 2em;
+}
+
+h1 {
+    color: rgb(214, 65, 85);
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+h3 {
+    color: rgb(214, 65, 85);
+}
+
+/**Since Image takes up space, padding-bottom needs to be huge!**/
+.main {
+    padding-bottom : 600px;
+}
+
+.main2 {
+    padding-bottom: 20px;
+}
+
+/**How to resize img?**/
+  
+footer {
+    margin-top: 70px;
+}
